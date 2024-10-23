@@ -1,7 +1,8 @@
 n, m = map(int, input().split())
 arr = []
 for _ in range(n):
-    map = input().split()
+    map = input()
+    map = list(map)
     arr.append(map)
 
 bomb = []
